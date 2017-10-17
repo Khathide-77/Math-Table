@@ -1,0 +1,33 @@
+/*
+ *
+ */
+package table;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Thobekani
+ */
+
+public class Table {
+
+    
+     
+     
+    public static void main(String[] args) 
+    {
+     Scanner input = new Scanner(System.in);
+      System.out.printf("Number\tSquare\tCube");
+      System.out.printf("\n%s\t%s\t%s",(0),(0*0),(0*0*0));
+      System.out.printf("\n%s\t%s\t%s",(1),(1*1),(1*1*1));
+      System.out.printf("\n%s\t%s\t%s",(2),(2*2),(2*2*2));
+      System.out.printf("\n%s\t%s\t%s",(3),(3*3),(3*3*3));
+      System.out.printf("\n%s\t%s\t%s",(4),(4*4),(4*4*4));
+      System.out.printf("\n%s\t%s\t%s",(5),(5*5),(5*5*5));
+      System.out.printf("\n%s\t%s\t%s",(6),(6*6),(6*6*6));
+      System.out.printf("\n%s\t%s\t%s",(7),(7*7),(7*7*7));
+      System.out.printf("\n%s\t%s\t%s",(8),(8*8),(8*8*8));
+      System.out.printf("\n%s\t%s\t%s",(9),(9*9),(9*9*9));
+      System.out.printf("\n%s\t%s\t%s\n\n",(10),(10*10),(10*10*10));
+      
